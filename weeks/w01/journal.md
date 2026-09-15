@@ -39,7 +39,7 @@ Keep evidence of the process, not only the successful result.
 
 **Original idea**
 
-<!-- Add your drawing and a short description. -->
+>![[WhatsApp Image 2026-09-15 at 17.41.17.jpeg|250]]
 
 **First instruction set**
 
