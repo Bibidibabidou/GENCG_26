@@ -39,25 +39,26 @@ Keep evidence of the process, not only the successful result.
 
 **Original idea**
 
->![[WhatsApp Image 2026-09-15 at 17.41.17.jpeg|250]]
+>![[WhatsApp Image 2026-09-15 at 17.41.17.jpeg|230]]
 
 **First instruction set**
 
-1.
-2.
-3.
-4.
-5.
-6.
+1. You will need an A4 plain paper, orientated vertically, and a black felt tip.
+2. In the middle of the page draw a 1cm x 1cm (approx.) square, fill it in.
+3. From the bottom right corner of the square, draw a straight line to the right, approx 4cm. Then stop and continue the line upwards, approx. 10cm. 
+4. Stop and continue the line to the left, make a circle that goes through the line.
+5. From the left corner of the square, make the first 2 lines you did but mirror them. When you have done the 2nd line (10cm going downwards), draw a 10cm line to the right, then draw a line to the bottom approx. 10cm.
+6. Draw a circle with aa radius of 2mc at 2cm of the last line you drew, it has to overlap the line.
 
-**First execution**
+**First execution** (by Vishy Pravin)
+![[WhatsApp Image 2026-09-21 at 22.10.08.jpeg|252]]
 
-<!-- Embed or link the result produced by your partner. -->
 
 **Where did interpretation differ?**
 
--
--
+- Interpretation of approximative size/length differs
+- "draw a straight line to the right" appears to no be clear enough - line was drawn diagonally, down. 
+- part 5) is also unclear, as I did not explain in which axis it should be mirrored.
 
 **Revised instructions**
 
