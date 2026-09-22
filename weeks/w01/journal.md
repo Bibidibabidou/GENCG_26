@@ -19,11 +19,11 @@ publish: true
 
 Keep evidence of the process, not only the successful result.
 
-- [ ] Original drawing or idea
-- [ ] First instruction set
-- [ ] First execution by another person
-- [ ] Moments of confusion or ambiguity
-- [ ] Revised instructions
+- [x] Original drawing or idea
+- [x] First instruction set
+- [x] First execution by another person
+- [x] Moments of confusion or ambiguity
+- [x] Revised instructions
 - [ ] Second execution
 - [ ] Small rule system
 - [ ] Sketch or diagram of the system
@@ -62,25 +62,24 @@ Keep evidence of the process, not only the successful result.
 
 **Revised instructions**
 
-1.
-2.
-3.
-4.
-5.
-6.
+2. In the middle of the page draw a 1cm x 1cm (approx.) square, fill it in.
+3. From the bottom right corner of the square, draw a straight line to the right, approx. 4cm. Then stop and continue the line upwards, approx. 10cm. 
+4. Stop and continue the line to the left, make a circle that goes through the line.
+5. From the left corner of the square, make the first 2 lines you did but mirror them. When you have done the 2nd line (10cm going downwards), draw a short line to the right, approx. 2cm, then draw a line to the bottom approx. 10cm
+6. Draw a circle with a radius of 2cm at the end of the last line you drew, it has to overlap the line.
 
 **Second execution**
 
 <!-- Embed or link the second result. What changed? -->
-
+(not done)
 ### Small rule system
 
-- **Starting condition:**
-- **Action:**
-- **Relationship:**
-- **Variation:**
+- **Starting condition:** draw a square in the centre of the page.
+- **Action:** 
+- **Relationship:**  the line connects to the previous shape's point to the next shape's point
+- **Variation:** 
 - **Constraint:**
-- **Stopping rule:**
+- **Stopping rule:** 
 
 <!-- Add a sketch or diagram of the system. -->
 
@@ -92,7 +91,57 @@ What did a human understand automatically that the computer needed you to specif
 -
 
 ```js
-// Add your own p5.js translation here.
+// function setup() {
+
+  createCanvas(windowWidth, windowHeight);
+
+}
+
+  
+
+function draw() {
+
+  background(230);
+
+  rectMode(CENTER);
+
+  
+
+  // quare properties
+
+  let centerX = width / 2;
+
+  let centerY = height / 2;
+
+  let size = 25;
+
+  // bottom right corner
+
+  let cornerX = centerX + (size / 2); // Move right
+
+  let cornerY = centerY + (size / 2); // Move down
+
+  // draw the black square
+
+  rectMode(CENTER);
+
+  fill(0);
+
+  noStroke();
+
+  rect(centerX, centerY, size, size);
+
+  // draw a line starting from the bottom-right corner
+
+  stroke(0);
+
+  strokeWeight(2);
+
+  line(cornerX, cornerY, 350, 350); // Ends at (350, 350)
+
+  
+
+}
 ```
 
 **Parameters tested**
