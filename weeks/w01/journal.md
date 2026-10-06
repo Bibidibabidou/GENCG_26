@@ -87,9 +87,7 @@ Keep evidence of the process, not only the successful result.
 
 What did a human understand automatically that the computer needed you to specify?
 
--
--
-
+First attempt:
 ```js
 // function setup() {
 
@@ -144,17 +142,114 @@ function draw() {
 }
 ```
 
+Second version: 
+
+```js
+
+const REF_W = 274;
+
+const REF_H = 577;
+
+  
+
+function setup() {
+
+  createCanvas(windowWidth, windowHeight);
+
+}
+
+  
+function draw() {
+
+  background(230);
+
+  // Scale drawing
+
+  let s = min(width / REF_W, height / REF_H) * 0.9;
+
+  push();
+
+  translate(width / 2, height / 2);
+
+  scale(s);
+
+  translate(-REF_W / 2, -REF_H / 2);
+
+  
+  stroke(0);
+
+  strokeWeight(2.5 / s * s); 
+
+  noFill();
+
+  
+
+  // Top circle
+
+  circle(140, 62, 80);
+
+  
+
+  // Bottom circle
+
+  circle(104, 512, 84);
+
+  
+
+  // The connecting path
+
+  beginShape();
+
+  vertex(158, 67);   // starts inside the top circle
+
+  vertex(250, 67);   // right
+
+  vertex(250, 205);  // down
+
+  vertex(95, 207);   // left, through the square
+
+  vertex(88, 342);   // down
+
+  vertex(107, 345);  // small step to the right
+
+  vertex(104, 505);  // down into the bottom circle
+
+  endShape();
+
+  
+
+  // Small black square
+  rectMode(CENTER);
+
+  fill(0);
+
+  noStroke();
+
+  rect(178, 206, 20, 20);
+
+  pop();
+
+}
+
+  
+
+function windowResized() {
+
+  resizeCanvas(windowWidth, windowHeight);
+
+}
+```
+
+
 **Parameters tested**
 
-| Parameter | Values tried | What changed |
-| --------- | ------------ | ------------ |
-|           |              |              |
-|           |              |              |
+- value of stroke weight to match the drawing
+- placement of lines and circles (x, y values)
+
 
 **Technical challenges or failed attempts**
 
--
--
+- had difficulty to have straight lines, and connect lines to each other especially when there are right angles
 
 ## 2. Influences & References
 
