@@ -9,6 +9,7 @@ tags:
 publish: true
 ---
 
+
 ## Notes
 
 The journal foundation is in place. Markdown remains comfortable to edit in Obsidian, while experiments can stay in self-contained folders.
