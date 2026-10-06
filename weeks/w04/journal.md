@@ -30,7 +30,7 @@ Team: Vishy - Me - Michelle - 10min each
    ![[Screenshot 2026-10-06 165831.png]]
 
 3) Michelle
-![[Screenshot 2026-10-06 170102.png]]
+![[Screenshot 2026-10-06 173745.png]]
 
 ## Reflection
 
