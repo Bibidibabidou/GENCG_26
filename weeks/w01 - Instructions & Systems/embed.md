@@ -13,11 +13,11 @@ publish: true
 
 The sketch below is a standalone page embedded in this journal entry.
 
-![[./sketches/01-test/index.html]]
+![[weeks/w01 - Instructions & Systems/sketches/01-test/index.html]]
 
 The sketch below is a standalone page embedded in this journal entry with a GUI
 
-![[./sketches/02-test/index.html]]
+![[weeks/w01 - Instructions & Systems/sketches/02-test/index.html]]
 
 > [!important] You MUST use a relative path when embeding a sketch NOT an absotlute path.  
 > For example use: `./sketches/02-test/index.html` instead of: `weeks/w01/sketches/02-test/index.html`
@@ -48,7 +48,7 @@ The journal owns the surrounding context; the embedded page contains only the cr
 
 ## Interactive HTML sketch with width / height
 
-![[./sketches/01-test/index.html|200x100]]
+![[weeks/w01 - Instructions & Systems/sketches/01-test/index.html|200x100]]
 
 ## Audio
 

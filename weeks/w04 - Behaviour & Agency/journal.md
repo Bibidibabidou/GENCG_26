@@ -12,13 +12,9 @@ publish: true
 
 ## Notes
 
-# Session 4: Behaviour & Agency
+# Session 4: Behaviour & Agency,  Examples & References, Drawing Machines
 
-# Session 4: Examples & References
-
-# Session 4: Drawing Machines
-
-# Code Cadavre Exquis
+# Code Cadavre Exquis - Group Work
 
 Team: Vishy - Me - Michelle - 10min each
 

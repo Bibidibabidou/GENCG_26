@@ -35,6 +35,7 @@ Step 1 :
 I made sure to understand how to apply sin() to my concept. I used AI(claude). After explaining my concept I prompted: - explain how I can apply sin() to form an arc and follow my concept.
 -Claude answer:
 
+**(WIP)**
 
 ## Reflection
 
