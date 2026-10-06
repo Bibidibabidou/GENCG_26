@@ -239,7 +239,7 @@ function windowResized() {
 
 }
 ```
-
+![[Screenshot 2026-10-06 142136.png]]
 
 **Parameters tested**
 
