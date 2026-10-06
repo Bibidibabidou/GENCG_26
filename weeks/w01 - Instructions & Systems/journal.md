@@ -1,5 +1,5 @@
 ---
-title: Instructions & Systems
+title: w01 - Instructions & Systems
 date: 2026-09-14
 week: 1
 tags:

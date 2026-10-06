@@ -1,5 +1,5 @@
 ---
-title: Experiment 02
+title: w02 - Repetition & Variation
 date: 2026-09-14
 week: 1
 tags:
