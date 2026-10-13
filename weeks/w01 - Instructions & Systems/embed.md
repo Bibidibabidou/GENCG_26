@@ -6,7 +6,7 @@ tags:
   - image
   - prompting
   - experiment
-publish: true
+publish: false
 ---
 
 # Responsive sketch test

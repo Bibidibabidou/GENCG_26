@@ -1,6 +1,6 @@
 ---
 title: w03 - Change Over Time
-date: 2026-09-14
+date: 2026-09-29
 week: 1
 tags:
   - image
