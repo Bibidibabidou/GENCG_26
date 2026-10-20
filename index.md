@@ -1,6 +1,6 @@
 ---
 title: Weekly Journal
-publish: true
+publish: false
 tags:
   - journal
 ---
