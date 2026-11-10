@@ -30,6 +30,54 @@ How can I connect it to the module ?
  
  https://verse.works/journal/on-neural-drawings-of-mark-webster
  
+ 10.11.25 notes
+  Finding a topic that is specific to me: 
+  - Which place do you remember differently from how it really is?
+- What do you repeat every day without thinking (a route, a gesture, a message)?
+- What is between two things for you: two places, two languages, two people?
+- What have you lost or are you slowly forgetting?
+- Which object, text or recording from someone close to you could you use as material?
+
+Notes from coaching
+-> how to translate this content into symbols/text ? adapting to diff medium // symbolism
+->ex: start img with description -> generate symboles/img visual language
+-> what to start from
+-> memories from others, from insta par ex.  - smth that resonates to me// my writing // describe it // interpretation & data vis // words can become symbols 
+
+starting point is most important - doesn't need to be most visible
+text -> image -> code --> how can we interprate it ? interesting to see in group setting
+title
+
+working with text/img -> at the end see
+
+final look - important what we do, what we research, it can be a webpage at the end gallery /artwork  - what is the starting point for the group ? story how you intepretate how ?
+
+ ### A simple recipe to turn a theme into a system
+
+1. **Material:** what real, personal input do you use? (drawings, data, text, a route)
+2. **Verb:** what happens to it? One action: _erode, divide, accumulate, return, translate, overlay_
+3. **Primitive:** one main visual element: a line, a dot, a room, a word
+4. **Rules:** 3–5 rules linking material → verb → primitive
+5. **Constraints:** what you lock to keep it consistent (palette, stroke, empty space)
+6. **Form:** series, interactive piece, animation, or print
+
+Medium/Concept:
+
+Generative poetic animation ->rules that produce the motion and the timing:
+the text drives the drawing - each run or each viewer gets a different version -> illustration grows/erodes/reacts according to the system
+
+analyse de lartiste elle - comment retrasncrire- 
+
+font.textToPoints()
+ 
+ ### Useful p5.js tools
+
+- `frameCount` or `millis()` for timing text reveals (typewriter effect, fade-ins)
+- `lerp()` and easing functions for smooth movement
+- `noise()` for organic drift and hand-like lines
+- `loadFont()` + `textToPoints()` for text that turns into shapes
+- `createGraphics()` for layers (a paper background, a drawing layer, a text layer)
+- `saveGif()` for short exports; for longer video, a capture library like p5.capture
  ![[Screenshot 2026-11-03 170534.png]]
 
 Neural Drawings - generative art with a more "human" approach. 
